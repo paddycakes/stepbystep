@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/paddycakes/stepbystep/issues"
   },
-  "homepage": "https://github.com/paddycakes/stepbystep#readme"
+  "homepage": "https://github.com/paddycakes/stepbystep#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-react": "^3.1.0"
+  }
 }
