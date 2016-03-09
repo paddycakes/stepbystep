@@ -1,0 +1,19 @@
+{
+  "name": "stepbystep",
+  "version": "1.0.0",
+  "description": "Counselling website (powered by React and Flux)\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paddycakes/stepbystep.git"
+  },
+  "author": "Patrick Gallagher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paddycakes/stepbystep/issues"
+  },
+  "homepage": "https://github.com/paddycakes/stepbystep#readme"
+}
