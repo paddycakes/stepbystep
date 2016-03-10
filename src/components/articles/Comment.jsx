@@ -13,7 +13,7 @@ module.exports = React.createClass({
             <a href="#" className="reply">Reply</a>
           </div>
           <div className="date">
-            {this.props.date}
+            {this.props.dateCreated}
           </div>
           <div className="response">
             {this.props.content}
