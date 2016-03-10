@@ -23,6 +23,11 @@ var options = {
 // TODO: Sort by date order (most recent first)
 module.exports = React.createClass({
   render: function () {
-    return <Comment />
+    var commentList = _.map(options.comments, function(comment) {
+      return <Comment {...comment} />
+    });
+    return <div>
+      {commentList}
+    </div>
   }
 });
