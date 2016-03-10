@@ -1,6 +1,6 @@
 var React = require('react');
 
-var NavBar = React.createClass({
+module.exports = React.createClass({
   render: function () {
     return <div className="navbar navbar-fixed-top">
           <div className="navbar-inner">
@@ -11,7 +11,7 @@ var NavBar = React.createClass({
                 <span className="icon-bar"></span>
               </a>
               <a className="brand scroller" data-section="body" href="index.html">
-                <img src="assets/img/logo.png" alt="logo" />
+                <img src="assets/img/step_by_step_logo.png" alt="logo" />
               </a>
               <div className="nav-collapse collapse">
                 <ul className="nav pull-right">
@@ -60,5 +60,3 @@ var NavBar = React.createClass({
         </div>
   }
 });
-
-module.exports = NavBar;

@@ -8,7 +8,7 @@ module.exports = React.createClass({
       <a href="#" class="scrolltop">
         <span>up</span>
       </a>
-        
+
       <NavBar/>
 
       <Footer/>
