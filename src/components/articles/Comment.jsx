@@ -2,6 +2,9 @@ var React = require('react');
 
 module.exports = React.createClass({
   render: function () {
+    var name = this.props.name;
+    var date = this.props.date;
+    var content = this.props.content;
     return <div class="comment">
       <div class="row">
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 img">
