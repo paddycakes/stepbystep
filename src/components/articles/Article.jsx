@@ -5,7 +5,7 @@ var AddComment = require('./AddComment');
 
 var options = {
   article: {
-    title: "Weathering the relationship storms for a brighter future",
+    title: "Weathering relationship storms for a brighter future",
     content: {
       imageUrl: "blog_post",
       author: "Graeme Orr MBACP (Accred)",
