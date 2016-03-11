@@ -6,6 +6,6 @@ var Template = require('./components/Template')
 var element = React.createElement(Template, null);
 
 // Place the rendered element in the dom.
-ReactDOM.render(element, document.querySelector('.container'));
+ReactDOM.render(element, document.querySelector('#app'));
 
 

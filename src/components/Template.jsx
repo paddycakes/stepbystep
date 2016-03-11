@@ -1,7 +1,7 @@
 var React = require('react');
 var NavBar = require('./NavBar');
 var Footer = require('./Footer');
-var CommentList = require('./articles/CommentList');
+var Article = require('./articles/Article');
 
 module.exports = React.createClass({
   render: function () {
@@ -12,7 +12,7 @@ module.exports = React.createClass({
 
       <NavBar/>
 
-      <CommentList/>
+      <Article/>
 
       <Footer/>
     </div>

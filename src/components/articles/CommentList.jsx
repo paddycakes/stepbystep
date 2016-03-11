@@ -26,7 +26,8 @@ module.exports = React.createClass({
     var commentList = _.map(options.comments, function(comment) {
       return <Comment {...comment} />
     });
-    return <div>
+    return <div className="comments">
+      <h4>Comments</h4>
       {commentList}
     </div>
   }

@@ -14,11 +14,11 @@ module.exports = React.createClass({
     var author = this.props.author;
     var dateCreated = this.props.dateCreated;
     return <div>
-      <img class="post_pic img-responsive" src="images/blog_post.jpg" />
-      <div class="post_content">
-        {this.props.text}
-        <div class="author">{this.props.author}</div>
-        <div class="date">{this.props.dateCreated}</div>
+      <img className="post_pic" src="assets/img/replace/blog_post.jpg" />
+      <div className="post_content">
+        <p>{this.props.text}</p>
+        <div className="author">{this.props.author}</div>
+        <div className="date">{this.props.dateCreated}</div>
       </div>
     </div>
   }
