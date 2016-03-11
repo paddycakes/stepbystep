@@ -3,6 +3,7 @@ var ArticleContent = require('./ArticleContent');
 var CommentList = require('./CommentList');
 var AddComment = require('./AddComment');
 
+// TODO: This needs to be 'wrapped' by a page component
 module.exports = React.createClass({
   render: function () {
     return <div id="blog_wrapper" className="blog_post">

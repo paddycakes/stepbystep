@@ -9,12 +9,8 @@ var React = require('react');
  */
 module.exports = React.createClass({
   render: function () {
-    var imageUrl = this.props.imageUrl;
-    var text = this.props.text;
-    var author = this.props.author;
-    var dateCreated = this.props.dateCreated;
     return <div>
-      <img className="post_pic" src="assets/img/replace/blog_post.jpg" />
+      <img className="post_pic" src={"assets/img/replace/" + this.props.imageUrl} />
       <div className="post_content">
         <p>{this.props.text}</p>
         <div className="author">{this.props.author}</div>
