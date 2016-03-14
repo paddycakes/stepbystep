@@ -1,8 +1,12 @@
 var React = require('react');
 
+// TODO: Need a function to clip the text content to 200 characters and append ...
 // TODO: Should the row div be moved up to the ArticleList component (as this component shouldn't necessarily dictate that it is in a row)
 // TODO: Need to sort out the 'more' routing
 module.exports = React.createClass({
+  summaryText: function(text) {
+    return "";
+  },
   render: function () {
     return <div className="post">
       <div className="row">
@@ -15,7 +19,7 @@ module.exports = React.createClass({
           <a href="blog-post.html">
             <h3>{this.props.title}</h3>
           </a>
-          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+          <p>{this.summaryText(this.props.text)}</p>
           <div className="post_info">
             <div className="author">
               {this.props.content.author}

@@ -1,5 +1,6 @@
 var React = require('react');
 var NavBar = require('./NavBar');
+var RouteHandler = require('react-router').RouteHandler;
 var Footer = require('./Footer');
 var ArticleList = require('./articles/ArticleList');
 var Article = require('./articles/Article');
@@ -59,11 +60,8 @@ module.exports = React.createClass({
       <a href="#" className="scrolltop">
         <span>up</span>
       </a>
-
       <NavBar/>
-
-      <ArticleList articles={articles} />
-
+      <RouteHandler />
       <Footer/>
     </div>
   }
