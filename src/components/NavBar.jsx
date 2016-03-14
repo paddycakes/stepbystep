@@ -1,4 +1,5 @@
 var React = require('react');
+var Link = require('react-router').Link;
 
 module.exports = React.createClass({
   render: function () {
@@ -51,7 +52,7 @@ module.exports = React.createClass({
                       <li><a href="learndisabilities.html">Learning Disabilities</a></li>
                     </ul>
                   </li>
-                  <li><a href="articles.html" data-section="#footer">Articles</a></li>
+                  <li><Link to="/articles">Articles</Link></li>
                   <li><a href="contact.html" data-section="#footer">Contact</a></li>
                 </ul>
               </div>
