@@ -6,6 +6,8 @@ var AddComment = require('./AddComment');
 // TODO: This needs to be 'wrapped' by a page component
 module.exports = React.createClass({
   render: function () {
+    var articleId = this.props.params.id;
+
     return <div id="blog_wrapper" className="blog_post">
       <div className="container">
         <div className="row">
