@@ -1,8 +1,8 @@
 var React = require('react');
+var Link = require('react-router').Link;
 
 // TODO: Need a function to clip the text content to 200 characters and append ...
 // TODO: Should the row div be moved up to the ArticleList component (as this component shouldn't necessarily dictate that it is in a row)
-// TODO: Need to sort out the 'more' routing
 module.exports = React.createClass({
   summaryText: function(text) {
     return "";
@@ -30,7 +30,7 @@ module.exports = React.createClass({
           </div>
         </div>
       </div>
-      <a href="blog-post.html" className="btn">more</a>
+      <Link to={"/article/" + this.props.id} className="btn">more</Link>
     </div>
   }
 });

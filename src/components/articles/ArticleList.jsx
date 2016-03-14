@@ -9,6 +9,7 @@ var ArticleSummary = require('./ArticleSummary');
 // TODO: Might need the dates in a javascript moment object and convert them to format below on output
 
 var articles = [{
+  id: "1",
   title: "Weathering relationship storms for a brighter future",
   content: {
     imageUrl: "blog_post.jpg",
@@ -31,6 +32,7 @@ var articles = [{
     content: "Thanks for the positive feedback. I am really glad you enjoyed reading this article."
   }]
 }, {
+  id: "2",
   title: "Anger: an instant way to handle it better",
   content: {
     imageUrl: "blog_post.jpg",
