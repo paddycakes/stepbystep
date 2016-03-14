@@ -19,8 +19,8 @@ module.exports = React.createClass({
               <div className="nav-collapse collapse">
                 <ul className="nav pull-right">
                   <li><Link to="/home">Home</Link></li>
-                  <li><a href="aboutme.html" data-section="#pricing">About Me</a></li>
-                  <li><a href="howiwork.html" data-section="#footer">How I work</a></li>
+                  <li><Link to="/about">About Me</Link></li>
+                  <li><Link to="/approach">How I work</Link></li>
                   <li className="dropdown">
                     <a href="#" className="dropdown-toggle" data-toggle="dropdown">
                       Services
@@ -55,7 +55,7 @@ module.exports = React.createClass({
                     </ul>
                   </li>
                   <li><Link to="/articles">Articles</Link></li>
-                  <li><a href="contact.html" data-section="#footer">Contact</a></li>
+                  <li><Link to="/contact">Contact</Link></li>
                 </ul>
               </div>
             </div>

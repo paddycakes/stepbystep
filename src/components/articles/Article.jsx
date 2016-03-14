@@ -31,7 +31,7 @@ var article = {
 module.exports = React.createClass({
   render: function () {
     // TODO: Use this value to load the correct article via Firehose
-    var articleId = this.props.params.id;
+    var articleId = this.props.params.articleId;
 
     return <div id="blog_wrapper" className="blog_post">
       <div className="container">
