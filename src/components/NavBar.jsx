@@ -1,6 +1,8 @@
 var React = require('react');
 var Link = require('react-router').Link;
 
+// TODO: When link clicked, it greys out. Fix.
+
 module.exports = React.createClass({
   render: function () {
     return <div className="navbar navbar-fixed-top">
@@ -16,7 +18,7 @@ module.exports = React.createClass({
               </a>
               <div className="nav-collapse collapse">
                 <ul className="nav pull-right">
-                  <li><a href="index.html" data-section="#features">Home</a></li>
+                  <li><Link to="/home">Home</Link></li>
                   <li><a href="aboutme.html" data-section="#pricing">About Me</a></li>
                   <li><a href="howiwork.html" data-section="#footer">How I work</a></li>
                   <li className="dropdown">
