@@ -61,7 +61,7 @@ module.exports = React.createClass({
         <span>up</span>
       </a>
       <NavBar/>
-      <RouteHandler />
+      <ArticleList articles={articles} />
       <Footer/>
     </div>
   }
