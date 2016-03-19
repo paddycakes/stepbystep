@@ -1,3 +1,9 @@
 #blog_wrapper .header hr.about {
     width: 80%;
 }
+
+#blog_wrapper h1.header-center {
+    font-size: 31px;
+    margin-bottom: 50px;
+    text-align: center;
+}

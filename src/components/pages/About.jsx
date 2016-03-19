@@ -1,4 +1,5 @@
 var React = require('react');
+var Link = require('react-router').Link;
 
 module.exports = React.createClass({
   render: function () {
@@ -63,168 +64,168 @@ module.exports = React.createClass({
                 <li>
                   <div className="row">
                     <div className="span1">
-                      <a href="anxiety.html">
+                      <Link to="/expertise/anxiety">
                         <img className="thumb" alt="thumb post" src="assets/img/thumbs/anxiety.jpg" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="span2">
-                      <a className="link" href="anxiety.html">Anxiety</a>
+                      <Link to="/expertise/anxiety" className="link">Anxiety</Link>
                     </div>
                   </div>
                 </li>
                 <li>
                   <div className="row">
                     <div className="span1">
-                      <a href="depression.html">
+                      <Link to="/expertise/depression">
                         <img className="thumb" alt="thumb post" src="assets/img/thumbs/depression.jpg" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="span2">
-                      <a className="link" href="depression.html">Depression</a>
+                      <Link to="/expertise/depression" className="link">Depression</Link>
                     </div>
                   </div>
                 </li>
                 <li>
                   <div className="row">
                     <div className="span1">
-                      <a href="relmediation.html">
+                      <Link to="/expertise/relmediation">
                         <img className="thumb" alt="thumb post" src="assets/img/thumbs/relationship.jpg" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="span2">
-                      <a className="link" href="relmediation.html">Relationship Mediation</a>
+                      <Link to="/expertise/relmediation" className="link">Relationship Mediation</Link>
                     </div>
                   </div>
                 </li>
                 <li>
                   <div className="row">
                     <div className="span1">
-                      <a href="stress.html">
+                      <Link to="/expertise/stress">
                         <img className="thumb" alt="thumb post" src="assets/img/thumbs/stress.jpg" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="span2">
-                      <a className="link" href="stress.html">Stress</a>
+                      <Link to="/expertise/stress" className="link">Stress</Link>
                     </div>
                   </div>
                 </li>
                 <li>
                   <div className="row">
                     <div className="span1">
-                      <a href="lowselfconf.html">
+                      <Link to="/expertise/lowselfconf">
                         <img className="thumb" alt="thumb post" src="assets/img/replace/pic_blog.png" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="span2">
-                      <a className="link" href="lowselfconf.html">Low Self Confidence</a>
+                      <Link to="/expertise/lowselfconf" className="link">Low Self Confidence</Link>
                     </div>
                   </div>
                 </li>
                 <li>
                   <div className="row">
                     <div className="span1">
-                      <a href="lowselfesteem.html">
+                      <Link to="/expertise/lowselfesteem">
                         <img className="thumb" alt="thumb post" src="assets/img/thumbs/lowselfesteem.jpg" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="span2">
-                      <a className="link" href="lowselfesteem.html">Low Self Esteem</a>
+                      <Link to="/expertise/lowselfesteem" className="link">Low Self Esteem</Link>
                     </div>
                   </div>
                 </li>
                 <li>
                   <div className="row">
                     <div className="span1">
-                      <a href="ocd.html">
+                      <Link to="/expertise/ocd">
                         <img className="thumb" alt="thumb post" src="assets/img/replace/pic_blog.png" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="span2">
-                      <a className="link" href="ocd.html">Obsessive Compulsive Behavior</a>
+                      <Link to="/expertise/ocd" className="link">Obsessive Compulsive Behavior</Link>
                     </div>
                   </div>
                 </li>
                 <li>
                   <div className="row">
                     <div className="span1">
-                      <a href="angermgmt.html">
+                      <Link to="/expertise/angermgmt">
                         <img className="thumb" alt="thumb post" src="assets/img/thumbs/angermanagement.jpg" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="span2">
-                      <a className="link" href="angermgmt.html">Anger Management</a>
+                      <Link to="/expertise/angermgmt" className="link">Anger Management</Link>
                     </div>
                   </div>
                 </li>
                 <li>
                   <div className="row">
                     <div className="span1">
-                      <a href="domviolence.html">
+                      <Link to="/expertise/domviolence">
                         <img className="thumb" alt="thumb post" src="assets/img/thumbs/domesticviolence.jpg" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="span2">
-                      <a className="link" href="domviolence.html">Domestic Violence</a>
+                      <Link to="/expertise/domviolence" className="link">Domestic Violence</Link>
                     </div>
                   </div>
                 </li>
                 <li>
                   <div className="row">
                     <div className="span1">
-                      <a href="passaggbehaviour.html">
+                      <Link to="/expertise/passaggbehaviour">
                         <img className="thumb" alt="thumb post" src="assets/img/replace/pic_blog.png" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="span2">
-                      <a className="link" href="passaggbehaviour.html">Passive Aggressive Behavior</a>
+                      <Link to="/expertise/passaggbehaviour" className="link">Passive Aggressive Behavior</Link>
                     </div>
                   </div>
                 </li>
                 <li>
                   <div className="row">
                     <div className="span1">
-                      <a href="ptsd.html">
+                      <Link to="/expertise/ptsd">
                         <img className="thumb" alt="thumb post" src="assets/img/thumbs/posttraumatic.jpg" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="span2">
-                      <a className="link" href="ptsd.html">Post Traumatic Stress Disorder</a>
+                      <Link to="/expertise/ptsd" className="link">Post Traumatic Stress Disorder</Link>
                     </div>
                   </div>
                 </li>
                 <li>
                   <div className="row">
                     <div className="span1">
-                      <a href="childrelissues.html">
+                      <Link to="/expertise/childrelissues">
                         <img className="thumb" alt="thumb post" src="assets/img/thumbs/childrelatedissues.jpg" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="span2">
-                      <a className="link" href="childrelissues.html">Child Related Issues</a>
+                      <Link to="/expertise/childrelissues" className="link">Child Related Issues</Link>
                     </div>
                   </div>
                 </li>
                 <li>
                   <div className="row">
                     <div className="span1">
-                      <a href="adhd.html">
+                      <Link to="/expertise/adhd">
                         <img className="thumb" alt="thumb post" src="assets/img/thumbs/adhd.jpg" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="span2">
-                      <a className="link" href="adhd.html">Attention Deficit Hyperactive Disorder</a>
+                      <Link to="/expertise/adhd" className="link">Attention Deficit Hyperactive Disorder</Link>
                     </div>
                   </div>
                 </li>
                 <li>
                   <div className="row">
                     <div className="span1">
-                      <a href="learndisabilities.html">
+                      <Link to="/expertise/learndisabilities">
                         <img className="thumb" alt="thumb post" src="assets/img/replace/pic_blog.png" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="span2">
-                      <a className="link" href="learndisabilities.html">Learning Disabilities</a>
+                      <Link to="/expertise/learndisabilities" className="link">Learning Disabilities</Link>
                     </div>
                   </div>
                 </li>

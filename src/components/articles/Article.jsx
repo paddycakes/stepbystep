@@ -30,7 +30,7 @@ var article = {
 // TODO: This needs to be 'wrapped' by a page component
 module.exports = React.createClass({
   render: function () {
-    // TODO: Use this value to load the correct article via Firehose
+    // TODO: Use this value to load the correct article via Firebase
     var articleId = this.props.params.articleId;
 
     return <div id="blog_wrapper" className="blog_post">
