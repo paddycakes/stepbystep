@@ -1,6 +1,14 @@
 var React = require('react');
+var marked = require('marked');
 
 module.exports = React.createClass({
+
+  // TODO: Should this be done on the server?
+  markdownToHtml: function(text) {
+    var rawMarkup = marked(text);
+    return rawMarkup;
+  },
+
   render: function () {
     return <div id="blog_wrapper" className="blog_post">
       <div className="container">
@@ -19,7 +27,7 @@ module.exports = React.createClass({
             </div>
 
             <div className="post_content">
-              {this.props.content}
+              <span dangerouslySetInnerHTML={ { __html: this.markdownToHtml(this.props.content)} } />
             </div>
           </div>
         </div>
