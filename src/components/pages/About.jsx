@@ -10,7 +10,7 @@ module.exports = React.createClass({
 
             <h1 className="header">
               About Me
-              <hr/>
+              <hr className="about" />
               </h1>
 
               <div className="post">
@@ -64,7 +64,7 @@ module.exports = React.createClass({
                   <div className="row">
                     <div className="span1">
                       <a href="anxiety.html">
-                        <img className="thumb" alt="thumb post" src="img/thumbs/anxiety-shs.jpg" />
+                        <img className="thumb" alt="thumb post" src="assets/img/thumbs/anxiety-shs.jpg" />
                       </a>
                     </div>
                     <div className="span2">
@@ -76,7 +76,7 @@ module.exports = React.createClass({
                   <div className="row">
                     <div className="span1">
                       <a href="depression.html">
-                        <img className="thumb" alt="thumb post" src="img/thumbs/depression-shs.jpg" />
+                        <img className="thumb" alt="thumb post" src="assets/img/thumbs/depression-shs.jpg" />
                       </a>
                     </div>
                     <div className="span2">
@@ -88,7 +88,7 @@ module.exports = React.createClass({
                   <div className="row">
                     <div className="span1">
                       <a href="relmediation.html">
-                        <img className="thumb" alt="thumb post" src="img/thumbs/relationship-shs.jpg" />
+                        <img className="thumb" alt="thumb post" src="assets/img/thumbs/relationship-shs.jpg" />
                       </a>
                     </div>
                     <div className="span2">
@@ -100,7 +100,7 @@ module.exports = React.createClass({
                   <div className="row">
                     <div className="span1">
                       <a href="stress.html">
-                        <img className="thumb" alt="thumb post" src="img/thumbs/stress-shs.jpg" />
+                        <img className="thumb" alt="thumb post" src="assets/img/thumbs/stress-shs.jpg" />
                       </a>
                     </div>
                     <div className="span2">
@@ -112,7 +112,7 @@ module.exports = React.createClass({
                   <div className="row">
                     <div className="span1">
                       <a href="lowselfconf.html">
-                        <img className="thumb" alt="thumb post" src="img/pic_blog.png" />
+                        <img className="thumb" alt="thumb post" src="assets/img/replace/pic_blog.png" />
                       </a>
                     </div>
                     <div className="span2">
@@ -124,7 +124,7 @@ module.exports = React.createClass({
                   <div className="row">
                     <div className="span1">
                       <a href="lowselfesteem.html">
-                        <img className="thumb" alt="thumb post" src="img/thumbs/lowselfesteem-shs.jpg" />
+                        <img className="thumb" alt="thumb post" src="assets/img/thumbs/lowselfesteem-shs.jpg" />
                       </a>
                     </div>
                     <div className="span2">
@@ -136,7 +136,7 @@ module.exports = React.createClass({
                   <div className="row">
                     <div className="span1">
                       <a href="ocd.html">
-                        <img className="thumb" alt="thumb post" src="img/pic_blog.png" />
+                        <img className="thumb" alt="thumb post" src="assets/img/replace/pic_blog.png" />
                       </a>
                     </div>
                     <div className="span2">
@@ -148,7 +148,7 @@ module.exports = React.createClass({
                   <div className="row">
                     <div className="span1">
                       <a href="angermgmt.html">
-                        <img className="thumb" alt="thumb post" src="img/thumbs/angermanagement-shs.jpg" />
+                        <img className="thumb" alt="thumb post" src="assets/img/thumbs/angermanagement-shs.jpg" />
                       </a>
                     </div>
                     <div className="span2">
@@ -160,7 +160,7 @@ module.exports = React.createClass({
                   <div className="row">
                     <div className="span1">
                       <a href="domviolence.html">
-                        <img className="thumb" alt="thumb post" src="img/thumbs/domesticviolence-shs.jpg" />
+                        <img className="thumb" alt="thumb post" src="assets/img/thumbs/domesticviolence-shs.jpg" />
                       </a>
                     </div>
                     <div className="span2">
@@ -172,7 +172,7 @@ module.exports = React.createClass({
                   <div className="row">
                     <div className="span1">
                       <a href="passaggbehaviour.html">
-                        <img className="thumb" alt="thumb post" src="img/pic_blog.png" />
+                        <img className="thumb" alt="thumb post" src="assets/img/replace/pic_blog.png" />
                       </a>
                     </div>
                     <div className="span2">
@@ -184,7 +184,7 @@ module.exports = React.createClass({
                   <div className="row">
                     <div className="span1">
                       <a href="ptsd.html">
-                        <img className="thumb" alt="thumb post" src="img/thumbs/posttraumatic-shs.jpg" />
+                        <img className="thumb" alt="thumb post" src="assets/img/thumbs/posttraumatic-shs.jpg" />
                       </a>
                     </div>
                     <div className="span2">
@@ -196,7 +196,7 @@ module.exports = React.createClass({
                   <div className="row">
                     <div className="span1">
                       <a href="childrelissues.html">
-                        <img className="thumb" alt="thumb post" src="img/thumbs/childrelatedissues-shs.jpg" />
+                        <img className="thumb" alt="thumb post" src="assets/img/thumbs/childrelatedissues-shs.jpg" />
                       </a>
                     </div>
                     <div className="span2">
@@ -208,7 +208,7 @@ module.exports = React.createClass({
                   <div className="row">
                     <div className="span1">
                       <a href="adhd.html">
-                        <img className="thumb" alt="thumb post" src="img/thumbs/adhd-shs.jpg" />
+                        <img className="thumb" alt="thumb post" src="assets/img/thumbs/adhd-shs.jpg" />
                       </a>
                     </div>
                     <div className="span2">
@@ -220,7 +220,7 @@ module.exports = React.createClass({
                   <div className="row">
                     <div className="span1">
                       <a href="learndisabilities.html">
-                        <img className="thumb" alt="thumb post" src="img/pic_blog.png" />
+                        <img className="thumb" alt="thumb post" src="assets/img/replace/pic_blog.png" />
                       </a>
                     </div>
                     <div className="span2">
