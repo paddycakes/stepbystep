@@ -27,9 +27,9 @@ module.exports = React.createClass({
                       <b className="caret"></b>
                     </a>
                     <ul className="dropdown-menu">
-                      <li><a href="counselling.html">Counselling</a></li>
-                      <li><a href="seminars.html">Seminars</a></li>
-                      <li><a href="workshops.html">Workshops</a></li>
+                      <li><Link to="/services/counselling">Counselling</Link></li>
+                      <li><Link to="/services/seminars">Seminars</Link></li>
+                      <li><Link to="/services/workshops">Workshops</Link></li>
                     </ul>
                   </li>
                   <li className="dropdown">
@@ -38,20 +38,20 @@ module.exports = React.createClass({
                       <b className="caret"></b>
                     </a>
                     <ul className="dropdown-menu">
-                      <li><a href="anxiety.html">Anxiety</a></li>
-                      <li><a href="depression.html">Depression</a></li>
-                      <li><a href="relmediation.html">Relationship Mediation</a></li>
-                      <li><a href="stress.html">Stress</a></li>
-                      <li><a href="lowselfconf.html">Low Self Confidence</a></li>
-                      <li><a href="lowselfesteem.html">Low Self Esteem</a></li>
-                      <li><a href="ocd.html">Obsessive Compulsive Behaviour</a></li>
-                      <li><a href="angermgmt.html">Anger Management</a></li>
-                      <li><a href="domviolence.html">Domestic Violence</a></li>
-                      <li><a href="passaggbehaviour.html">Passive Aggressive Behavior</a></li>
-                      <li><a href="ptsd.html">Post Traumatic Stress Disorder</a></li>
-                      <li><a href="childrelissues.html">Child Related Issues</a></li>
-                      <li><a href="adhd.html">Attention Deficit Hyperactive Disorder</a></li>
-                      <li><a href="learndisabilities.html">Learning Disabilities</a></li>
+                      <li><Link to="/expertise/anxiety">Anxiety</Link></li>
+                      <li><Link to="/expertise/depression">Depression</Link></li>
+                      <li><Link to="/expertise/relmediation">Relationship Mediation</Link></li>
+                      <li><Link to="/expertise/stress">Stress</Link></li>
+                      <li><Link to="/expertise/lowselfconf">Low Self Confidence</Link></li>
+                      <li><Link to="/expertise/lowselfesteem">Low Self Esteem</Link></li>
+                      <li><Link to="/expertise/ocd">Obsessive Compulsive Behaviour</Link></li>
+                      <li><Link to="/expertise/angermgmt">Anger Management</Link></li>
+                      <li><Link to="/expertise/domviolence">Domestic Violence</Link></li>
+                      <li><Link to="/expertise/passaggbehaviour">Passive Aggressive Behavior</Link></li>
+                      <li><Link to="/expertise/ptsd">Post Traumatic Stress Disorder</Link></li>
+                      <li><Link to="/expertise/childrelissues">Child Related Issues</Link></li>
+                      <li><Link to="/expertise/adhd">Attention Deficit Hyperactive Disorder</Link></li>
+                      <li><Link to="/expertise/learndisabilities">Learning Disabilities</Link></li>
                     </ul>
                   </li>
                   <li><Link to="/articles">Articles</Link></li>
