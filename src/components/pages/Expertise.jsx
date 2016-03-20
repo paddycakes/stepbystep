@@ -80,6 +80,7 @@ var expertises = [{
 }]
 
 module.exports = React.createClass({
+
   getExpertise: function(expertiseId) {
     return _.find(expertises, function(exp) {
       return exp.id == expertiseId;
@@ -90,6 +91,7 @@ module.exports = React.createClass({
     // TODO: Use this value to load the correct service via Firebase
     var expertiseId = this.props.params.expertiseId;
     var expertise = this.getExpertise(expertiseId);
+
     // TODO: Check that expertise actually has a value or else will be an (unrecoverable?) error
     console.log("Expertise is " + expertise);
 
